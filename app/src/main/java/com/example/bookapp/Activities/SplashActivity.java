@@ -1,10 +1,13 @@
-package com.example.bookapp;
+package com.example.bookapp.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.bookapp.MainActivity;
+import com.example.bookapp.R;
 
 public class SplashActivity extends AppCompatActivity {
 

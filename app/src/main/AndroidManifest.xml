@@ -12,8 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookApp">
+        <activity android:name=".Activities.DashboardAdminActivity"></activity>
+        <activity android:name=".Activities.DashboardUserActivity" />
+        <activity android:name=".Activities.Auth.LoginActivity" />
+        <activity android:name=".Activities.Auth.RegisterActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".Activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
