@@ -12,12 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.BookApp">
-        <activity android:name=".Activities.Dashboard.DashboardAdminActivity"></activity>
+        <activity android:name=".Activities.Dashboard.DashboardAdminActivity" />
         <activity android:name=".Activities.Dashboard.DashboardUserActivity" />
         <activity android:name=".Activities.Auth.LoginActivity" />
         <activity android:name=".Activities.Auth.RegisterActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Activities.SplashActivity">
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:theme="@style/FullScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

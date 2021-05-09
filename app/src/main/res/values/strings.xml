@@ -1,4 +1,37 @@
 <resources>
     <string name="app_name">Book App</string>
-    <string name="noAccBtn">New User? <b>SignUp</b></string>
+    <string name="createNewAcc">Create New Account</string>
+    <string name="nameTextInputLayout">Name</string>
+    <string name="emailTextInputLayout">Email</string>
+    <string name="passwordTextInputLayout">Password</string>
+    <string name="confirmPasswordTextInputLayout">Password</string>
+    <string name="forgotPassBtn">Forgot Password?</string>
+    <string name="registerBtn">Register</string>
+    <string name="continueWithoutLoginBtn">Continue without login</string>
+    <string name="pleaseLogin">Please Login</string>
+    <string name="loginBtn">Login</string>
+    <string name="noAccBtn">New user? <b>SignUp</b></string>
+    <string name="dashboard_user">Dashboard User</string>
+    <string name="emailTv">abc@example@.com</string>
+    <string name="dashboard_admin">Dashboard Admin</string>
+
+    <!--<editor-fold desc="ProgressDialog">-->
+    <string name="savingUserInformation">Saving user information…</string>
+    <string name="pleaseWait">Please wait…</string>
+    <string name="creatingAcc">Creating account…</string>
+    <string name="checkingUserType">Checking user type…</string>
+    <string name="loggingIn">Logging In…</string>
+    <!--</editor-fold>-->
+
+    <!--<editor-fold desc="Toasts">-->
+    <string name="fillInAllTheFields">Fill in all the fields…</string>
+    <string name="enterYouName">Enter you name…</string>
+    <string name="enterYouEmail">Enter you email…</string>
+    <string name="enterYouPassword">Enter you password…</string>
+    <string name="confirmPassword">Confirm password…</string>
+    <string name="invalidEmailPattern">Invalid email pattern…!</string>
+    <string name="passwordDoNotMatch">Password doesn"'"t match…</string>
+    <string name="thePasswordMustContainAtLeast6Characters">The password must contain at least 6 characters…</string>
+    <string name="accountCreated">Account created</string>
+    <!--</editor-fold>-->
 </resources>

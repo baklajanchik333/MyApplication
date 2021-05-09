@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/ubuntu</item>
+    </style>
+
+    <style name="FullScreenActivity" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">
+            shortEdges
+        </item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
