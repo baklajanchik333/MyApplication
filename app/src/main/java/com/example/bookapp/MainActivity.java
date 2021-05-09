@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.bookapp.Activities.Auth.LoginActivity;
-import com.example.bookapp.Activities.DashboardUserActivity;
+import com.example.bookapp.Activities.Dashboard.DashboardUserActivity;
 import com.example.bookapp.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {

@@ -7,11 +7,11 @@
     android:background="@drawable/background_img"
     tools:context=".Activities.Auth.RegisterActivity">
 
-    <RelativeLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_190sdp"
-        android:background="@drawable/shape_toolbar_login"
+        android:layout_height="@dimen/_170sdp"
+        android:background="@drawable/shape_toolbar_login_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -24,6 +24,8 @@
             android:contentDescription="@string/app_name"
             android:padding="@dimen/_5sdp"
             android:src="@drawable/ic_arrow_back_ios"
+            app:layout_constraintStart_toStartOf="@id/toolbar"
+            app:layout_constraintTop_toTopOf="@id/toolbar"
             app:tint="@color/white" />
 
         <ImageView
@@ -31,9 +33,12 @@
             android:layout_width="@dimen/_100sdp"
             android:layout_height="@dimen/_100sdp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/_20sdp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/logo_img" />
+            android:src="@drawable/logo_img"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintEnd_toEndOf="@id/toolbar"
+            app:layout_constraintStart_toStartOf="@id/toolbar"
+            app:layout_constraintTop_toTopOf="@id/toolbar" />
 
         <TextView
             android:id="@+id/pleaseLogin"
@@ -45,9 +50,12 @@
             android:text="Create New Account"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="@dimen/_20ssp" />
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -55,9 +63,11 @@
         android:layout_height="0dp"
         android:layout_marginStart="@dimen/_16sdp"
         android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_143sdp"
         android:layout_marginBottom="@dimen/_85sdp"
         app:layout_constraintBottom_toTopOf="@+id/noAccBtn"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -183,17 +193,5 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/noAccBtn"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/ubuntu"
-        android:text="@string/noAccBtn"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
