@@ -17,10 +17,11 @@
 
     <!--<editor-fold desc="ProgressDialog">-->
     <string name="savingUserInformation">Saving user information…</string>
-    <string name="pleaseWait">Please wait…</string>
+    <string name="pleaseWait">Please wait</string>
     <string name="creatingAcc">Creating account…</string>
     <string name="checkingUserType">Checking user type…</string>
     <string name="loggingIn">Logging In…</string>
+    <string name="addCategory">Adding category…</string>
     <!--</editor-fold>-->
 
     <!--<editor-fold desc="Toasts">-->
@@ -33,5 +34,7 @@
     <string name="passwordDoNotMatch">Password doesn"'"t match…</string>
     <string name="thePasswordMustContainAtLeast6Characters">The password must contain at least 6 characters…</string>
     <string name="accountCreated">Account created</string>
+    <string name="pleaseEnterCategory">Please enter category…</string>
+    <string name="categoryAddedSuccessfully">Category added successfully</string>
     <!--</editor-fold>-->
 </resources>

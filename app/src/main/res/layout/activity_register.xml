@@ -62,7 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="@dimen/_16sdp"
-        android:layout_marginTop="@dimen/_143sdp"
+        android:layout_marginTop="@dimen/_140sdp"
         android:layout_marginEnd="@dimen/_16sdp"
         android:layout_marginBottom="@dimen/_85sdp"
         app:layout_constraintEnd_toEndOf="parent"
